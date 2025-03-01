@@ -12,6 +12,7 @@ header{
     background-image: url('../img/bg-3.jpg');
     height: 350px;
     background-size: cover;
+   
 }
 
 .menu{
@@ -38,4 +39,76 @@ header{
 .menu a:hover{
     background: rgba(97, 95, 95, .20);
     font-size: 12px;
+}
+
+.principal{
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.principal h1{
+    text-transform: uppercase;
+    text-shadow: 1px 1px #f0cfcf;
+    
+}
+.principal p{
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    border-bottom: 1px solid;
+    display: inline-block;
+    background: rgba(49, 47, 47, 0.7);    
+}
+
+.content{
+    padding: 25px;
+}
+
+.content .titulo{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding: 5px;
+    background: #d4d4d4;
+    border-bottom: 2px solid #9b9393;
+    font-size: 16px;
+}
+
+.container{
+    background: white;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.content .descricao{
+    text-align: justify;
+    font-size: 12px;
+}
+.content a{
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid #686767 ;
+    padding: 5px;
+    color: #414141;
+    background: rgba(49, 47, 47, 0.3); 
+    transition: ease .6s;
+}
+
+.content a:hover{
+    background: rgba(49, 47, 47, 0.8);
+    color: #d3d3d3;
+}
+
+footer{
+    background: #414141;
+    padding: 15px;
+    text-align: center;
+}
+
+footer p {
+    display: inline-block;
+    color: aliceblue;
+    font-size: 10px;
 }
