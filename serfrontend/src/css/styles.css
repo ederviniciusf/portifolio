@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background: #d3d3d3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-image: url('../img/bg-3.jpg');
+    height: 350px;
+    background-size: cover;
+}
+
+.menu{
+    text-align: end;
+}
+
+.menu li {
+    margin-top: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.menu a{  
+    border: 1px solid;
+    padding: 10px;  
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+    transition: ease all .6s;  
+    background: rgba(97, 95, 95, .70);  
+}
+
+.menu a:hover{
+    background: rgba(97, 95, 95, .20);
+    font-size: 12px;
+}
