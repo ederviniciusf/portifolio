@@ -1,0 +1,10 @@
+
+body{
+    background: aqua;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
