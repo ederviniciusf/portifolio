@@ -1,10 +1,32 @@
-
 body{
-    background: aqua;
-    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    background:aqua;
     display: flex;
-    flex-direction: column;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
-
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    
 }
+
+.list-wrapper{
+    width: 90%;
+    max-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    
+}
+.list{
+    flex-basis: 280px;
+}
+
+.list-item{
+    list-style-type: none;
+    background-color: aliceblue;
+}
+
+
+

@@ -1,0 +1,31 @@
+:root{
+    --cor1: #2a8b8b;
+    --cor2: #75c58e;
+    --cor3: #bfff91;
+    --cor4: #dfe9a8;
+    --cor5: #ffd2bf;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background: var(--cor1);
+}
+.header div{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    font-size: 40px;
+    margin-top: 15px;
+    color: white ;
+}
+.header .logo{
+    height: 40px;
+    opacity: .9;
+}
+.menu img{
+    height: 20px;
+}
