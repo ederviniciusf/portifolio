@@ -25,8 +25,34 @@ body{
 
 .list-item{
     list-style-type: none;
-    background-color: aliceblue;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    background-image: url(/listacontato/imagens/thumb02.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
+.list-item__img img{
+    border-radius: 50%;
+    height: 80px;
+    margin-top: 120px;
+}
+
+.list-item__name p{
+    font-size: 24px;
+    margin: 0;
+    color: #385555;
+}
+
+.list-item__icons{
+    margin-top: 20px;
+    display: flex;
+    background-color: #E5E5E5;
+    padding: 10px;
+    justify-content: space-evenly;
+    gap: 16px;
+}
 
 
